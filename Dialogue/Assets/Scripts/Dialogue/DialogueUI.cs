@@ -7,6 +7,6 @@ public class DialogueUI : MonoBehaviour
 
     private void Start()
     {
-        textLabel.text = "Hello!\nThis is my second line.";
+        GetComponent<TypeWriterEffect>().Run("This is a bit of text!\nHello!", textLabel);
     }
 }
