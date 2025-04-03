@@ -8,11 +8,13 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private TMP_Text textLabel;
     [SerializeField] private DialogueObject testDialogue;
 
+    private ResponseHandler responseHandler;
     private TypeWriterEffect typewriterEffect;
 
     private void Start()
     {
         typewriterEffect = GetComponent<TypeWriterEffect>();
+        responseHandler = GetComponent<ResponseHandler>();
         CloseDialogueBox();
         ShowDialogue(testDialogue);
     }
@@ -25,9 +27,14 @@ public class DialogueUI : MonoBehaviour
 
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {
-        foreach (string dialogue in dialogueObject.Dialogue)
+
+        for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
+            string dialogue = dialogueObject.Dialogue[i];
             yield return typewriterEffect.Run(dialogue, textLabel);
+
+            if(i = dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break; //https://youtu.be/w2Xa4qJWE5c?si=ZRgsFvsi68NKPLoI&t=893
+
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
         }
 
