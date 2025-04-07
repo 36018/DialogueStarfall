@@ -1,7 +1,15 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
+    [SerializeField] private DialogueUI dialogueUI;
+
+    public DialogueUI DialogueUI => dialogueUI;
+
+    public IInteractable Interactable { get; set; }
+    
+    //Hoort bij de dialogue ^^^^
+
     public float speed = 5f;
     public float jumpForce = 7f;
     public Rigidbody rb;
@@ -18,8 +26,21 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        MovePlayer();
-        Jump();
+        //Hoort bij de dialogue vvvvv
+
+        if (!dialogueUI.IsOpen)
+        {
+            MovePlayer();
+            Jump();
+        } //The player will stand still while the dialogue is open
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if(Interactable != null)
+            {
+                Interactable.Interact(this);
+            }
+        }
     }
 
     void MovePlayer()
