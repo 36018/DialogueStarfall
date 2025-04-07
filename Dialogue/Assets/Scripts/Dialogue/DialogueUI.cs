@@ -33,12 +33,19 @@ public class DialogueUI : MonoBehaviour
             string dialogue = dialogueObject.Dialogue[i];
             yield return typewriterEffect.Run(dialogue, textLabel);
 
-            if(i = dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break; //https://youtu.be/w2Xa4qJWE5c?si=ZRgsFvsi68NKPLoI&t=893
+            if(i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
 
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
         }
 
-        CloseDialogueBox();
+        if (dialogueObject.HasResponses)
+        {
+            responseHandler.ShowResponses(dialogueObject.Responses);
+        }
+        else
+        {
+            CloseDialogueBox();
+        }
     }
 
     private void CloseDialogueBox()
