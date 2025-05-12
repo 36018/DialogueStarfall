@@ -2,6 +2,11 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
+using System;
+using UnityEngine.SceneManagement;
+
 
 public class ResponseHandler : MonoBehaviour
 {
@@ -11,6 +16,7 @@ public class ResponseHandler : MonoBehaviour
 
     private DialogueUI dialogueUI;
     private ResponseEvent[] responseEvents;
+    private Button sceneChange;
 
     private List<GameObject> tempResponseButtons = new List<GameObject>();
 
@@ -73,7 +79,19 @@ public class ResponseHandler : MonoBehaviour
         {
             dialogueUI.CloseDialogueBox();
         }
-
-        
     }
+
+
+
+    // Next scene
+   
+    private void Interaction()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            SceneManager.LoadScene("ShopKeeper");
+            Debug.Log("werkt het");
+        }
+    }
+
 }

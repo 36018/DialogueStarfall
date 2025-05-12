@@ -616,7 +616,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &666727875
 RectTransform:
   m_ObjectHideFlags: 0
@@ -626,16 +626,16 @@ RectTransform:
   m_GameObject: {fileID: 666727874}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.35942474, y: 1.7926222, z: 1.2972047}
+  m_LocalScale: {x: 0.31752303, y: 1.5911399, z: 1.2742702}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1240372921}
   m_Father: {fileID: 261156861}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.69, y: 24}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0.4334792, y: 0.4437037}
+  m_AnchorMax: {x: 0.582, y: 0.59000003}
+  m_AnchoredPosition: {x: -13.809998, y: 6}
+  m_SizeDelta: {x: -127, y: -128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &666727876
 MonoBehaviour:
@@ -680,7 +680,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1247641331}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 666727876}
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &666727877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,7 +706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.42745098}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
