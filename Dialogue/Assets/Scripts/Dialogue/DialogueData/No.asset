@@ -15,3 +15,5 @@ MonoBehaviour:
   dialogue:
   - You said no
   responses: []
+  speaking:
+  - Player

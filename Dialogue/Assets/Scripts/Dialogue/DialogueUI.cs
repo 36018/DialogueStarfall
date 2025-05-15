@@ -7,6 +7,8 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private TMP_Text textLabel;
 
+    [SerializeField] private TMP_Text speakerLabel;
+
     public bool IsOpen { get; private set; }
 
     private ResponseHandler responseHandler;
@@ -37,7 +39,13 @@ public class DialogueUI : MonoBehaviour
 
         for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
+            string speaker = (dialogueObject.Speaking != null && i < dialogueObject.Speaking.Length)
+            ? dialogueObject.Speaking[i]
+            : "Unknown";
+
             string dialogue = dialogueObject.Dialogue[i];
+
+            speakerLabel.text = speaker;
 
             yield return RunTypingEffect(dialogue);
 
@@ -78,5 +86,6 @@ public class DialogueUI : MonoBehaviour
         IsOpen = false;
         dialogueBox.SetActive(false);
         textLabel.text = string.Empty;
+        if (speakerLabel != null) speakerLabel.text = string.Empty;
     }
 }

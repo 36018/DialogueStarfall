@@ -24,3 +24,8 @@ MonoBehaviour:
     dialogueObject: {fileID: 11400000, guid: 4d8b9b6e76fe3fe40b4963116b944e2a, type: 2}
   - responseText: No
     dialogueObject: {fileID: 11400000, guid: 73195fd1b44429b448996bb4c5a2771a, type: 2}
+  speaking:
+  - NPC
+  - 'Player
+
+'
