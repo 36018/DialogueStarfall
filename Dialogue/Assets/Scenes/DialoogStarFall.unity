@@ -231,6 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 1540560362}
   textLabel: {fileID: 798681012}
+  speakerLabel: {fileID: 0}
 --- !u!114 &261156858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1734,7 +1735,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1728949117}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d39ff6863b74ce84e8a8fab51fdad40e, type: 3}
+  m_Script: {fileID: 11500000, guid: b05256c381e03b04ea8af63aa7043410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1814308822

@@ -40,7 +40,7 @@ public class Scenemanager : MonoBehaviour
     {
       SceneManager.LoadScene("ShopKeeper");
       Debug.Log("Press");
-      Debug.Log("Merge");
+
     }
 
 }
