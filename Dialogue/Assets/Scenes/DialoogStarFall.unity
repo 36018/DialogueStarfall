@@ -632,10 +632,10 @@ RectTransform:
   - {fileID: 1240372921}
   m_Father: {fileID: 261156861}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.4334792, y: 0.4437037}
-  m_AnchorMax: {x: 0.582, y: 0.59000003}
-  m_AnchoredPosition: {x: -13.809998, y: 6}
-  m_SizeDelta: {x: -127, y: -128}
+  m_AnchorMin: {x: 0.45035416, y: 0.48362967}
+  m_AnchorMax: {x: 0.55172914, y: 0.56277776}
+  m_AnchoredPosition: {x: -1.3099976, y: -1}
+  m_SizeDelta: {x: -36, y: -56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &666727876
 MonoBehaviour:
@@ -682,7 +682,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 666727876}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
@@ -1314,7 +1314,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: E
+  m_text: F
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1818,7 +1818,7 @@ GameObject:
   - component: {fileID: 2123794957}
   m_Layer: 0
   m_Name: NPC
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

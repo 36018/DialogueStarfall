@@ -83,15 +83,6 @@ public class ResponseHandler : MonoBehaviour
 
 
 
-    // Next scene
    
-    /*private void Interaction()
-    {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            SceneManager.LoadScene("ShopKeeper");
-            Debug.Log("werkt het");
-        }
-    }*/
 
 }
