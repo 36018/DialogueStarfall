@@ -10,7 +10,8 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - ND Astroneer
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cfbff053e70abfe46953f31b90fb0153, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
