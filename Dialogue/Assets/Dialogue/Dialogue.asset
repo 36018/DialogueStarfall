@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 350dfbeb7f25662448c7e2d3d58bf264, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  dialogue:
+  - As you open the door of the shop, you hear a bell ring.
+  - 'You look around and see someone standing behind the counter.
+
+'
+  - 'You hear a loud buzzing noise coming from the corner, you look over and see
+    a broken vending machine.
+
+'
+  - Welcome!
+  - You look over to the person speaking. You see a tall figure behind the counter.
+  - "Name\u2019s Reebo. \t"
+  - "Keeper of shelves and finder of things. You\u2019re new here aren\u2019t you?."
+  - 'Yeah.. What is this shop, what do you sell here? '
+  - "Hard to say. It\u2019s a shop, sure-but not just a shop. This place finds lost
+    things and we keep them here..."
+  - The vending machine in the corner makes a loud banging noise. Something falls
+    out of the vending machine and drops on the floor.
+  responses: []
+  speaking:
+  - 'Narrarator '
+  - 'Narrarator '
+  - 'Narrarator '
+  - Unknown
+  - Narrarator
+  - Unknown
+  - Reebo
+  - Player
+  - Reebo
+  - Narrarator
