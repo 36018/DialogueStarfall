@@ -30,6 +30,10 @@ MonoBehaviour:
     things and we keep them here..."
   - The vending machine in the corner makes a loud banging noise. Something falls
     out of the vending machine and drops on the floor.
+  - '[Gasp] What was that?'
+  - Oh that was just the rusty vending machine in the corner.
+  - You look over to the item that dropped on the ground, as you try to pick it up
+    Reebo appears behind you.
   responses: []
   speaking:
   - 'Narrarator '
@@ -39,6 +43,9 @@ MonoBehaviour:
   - Narrarator
   - Unknown
   - Reebo
+  - Player
+  - Reebo
+  - Narrarator
   - Player
   - Reebo
   - Narrarator
