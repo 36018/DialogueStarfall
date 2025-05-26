@@ -10,14 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 350dfbeb7f25662448c7e2d3d58bf264, type: 3}
-  m_Name: Choice1(Yes)
+  m_Name: Shopkeeper first interaction Yes
   m_EditorClassIdentifier: 
   dialogue:
-  - Do you want to pick up the item?
-  responses:
-  - responseText: Yes
-    dialogueObject: {fileID: 11400000, guid: 4d8b9b6e76fe3fe40b4963116b944e2a, type: 2}
-  - responseText: No
-    dialogueObject: {fileID: 11400000, guid: 73195fd1b44429b448996bb4c5a2771a, type: 2}
+  - '[YOU LOOK OVER TO THE ITEM THAT DROPPED ON THE GROUND, AS YOU TRY TO PICK IT
+    UP REEBO APPEARS BEHIND YOU]'
+  - You looking to buy something?!
+  - '[gasp] Oh you scared me!'
+  - "I\u2019m just looking"
+  responses: []
   speaking:
-  - 'Narrarator '
+  - Narrator
+  - Reebo
+  - 'Player
+
+'
+  - 'Player
+
+'
