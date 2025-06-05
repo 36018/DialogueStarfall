@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Shopkeeper first interaction no
   m_EditorClassIdentifier: 
   dialogue:
-  - 'No
-
-'
+  - You looking to buy something?!
+  - "I\u2019m just looking"
   responses: []
-  speaking: []
+  speaking:
+  - Reebo
+  - Player
