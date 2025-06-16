@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Shopkeeper first interaction no
   m_EditorClassIdentifier: 
   dialogue:
-  - 'No
-
-'
+  - You bid goodbye to Reebo as you walk towards the door to continue your journey.
   responses: []
-  speaking: []
+  speaking:
+  - 'Narrator '

@@ -42,16 +42,16 @@ MonoBehaviour:
   - responseText: No
     dialogueObject: {fileID: 11400000, guid: 44d5998aaab45034dbfaae6b85541396, type: 2}
   speaking:
-  - 'Narrarator '
-  - 'Narrarator '
-  - 'Narrarator '
+  - 'Narrator '
+  - 'Narrator '
+  - 'Narrator '
   - Unknown
-  - Narrarator
+  - 'Narrator '
   - Unknown
   - Reebo
   - Player
   - Reebo
-  - Narrarator
+  - 'Narrator '
   - Player
   - Reebo
-  - Narrarator
+  - 'Narrator '

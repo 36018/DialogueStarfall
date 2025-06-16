@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Shopkeeper first interaction Yes
   m_EditorClassIdentifier: 
   dialogue:
-  - '[YOU LOOK OVER TO THE ITEM THAT DROPPED ON THE GROUND, AS YOU TRY TO PICK IT
-    UP REEBO APPEARS BEHIND YOU]'
+  - You look over to the item that dropped on the ground. As you try to pick it up.
+    Reebo appears behind you
   - You looking to buy something?!
   - '[gasp] Oh you scared me!'
   - "I\u2019m just looking"
