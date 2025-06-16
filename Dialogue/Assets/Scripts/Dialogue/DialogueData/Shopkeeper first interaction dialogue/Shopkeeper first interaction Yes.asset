@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: Shopkeeper first interaction Yes
   m_EditorClassIdentifier: 
   dialogue:
-  - You look over to the item that dropped on the ground, as you try to pick it up.
-    Reebo appears behind you
+  - As you try to pick it up Reebo appears behind you.
   - You looking to buy something?!
   - '[gasp] Oh you scared me!'
   - "I\u2019m just looking"
+  - You glance around the store, searching for anything that might be useful, but
+    that strange item still lingers in your thoughts.
   responses: []
   speaking:
-  - Narrator
   - Reebo
   - 'Player
 
@@ -28,3 +28,4 @@ MonoBehaviour:
   - 'Player
 
 '
+  - 'Narrator '

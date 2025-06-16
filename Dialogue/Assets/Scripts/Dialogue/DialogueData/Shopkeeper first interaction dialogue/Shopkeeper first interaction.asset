@@ -29,13 +29,11 @@ MonoBehaviour:
   - "Hard to say. It\u2019s a shop, sure-but not just a shop. This place finds lost
     things and we keep them here..."
   - The vending machine in the corner makes a loud banging noise. Something falls
-    out of the vending machine and drops on the floor.
+    out of it and drops on the floor.
   - '[Gasp] What was that?'
   - Oh that was just the rusty vending machine in the corner.
-  - You look over to the item that dropped on the ground, as you try to pick it up
-    Reebo appears behind you.
-  - You look over to the item that dropped on the ground, as you try to pick it up
-    Reebo appears behind you.
+  - You look over to the item that dropped on the ground
+  - Do you want to pick the item up?
   responses:
   - responseText: Yes
     dialogueObject: {fileID: 11400000, guid: f2159c228f36d5d4d8246c33a847bfc7, type: 2}
@@ -54,4 +52,5 @@ MonoBehaviour:
   - 'Narrator '
   - Player
   - Reebo
+  - 'Narrator '
   - 'Narrator '
